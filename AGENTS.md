@@ -15,8 +15,16 @@ Token 过期时间：2026-09-03，过期后需重新生成。
 
 - `relay-proxy.js` — 代理脚本核心
 - `启动中转代理.bat` — Windows 启动批处理
-- `README.md` — 用户使用说明
+- `README.md` — 用户使用说明（含方案 A: CC Switch 路由 + 方案 B: 本地代理）
+- `AGENTS.md` — 本文件
 - `.github-credentials.json` — 凭证文件（不入库）
+
+## 两种方案
+
+README 中提供两种解决方案：
+
+- **方案 A：CC Switch 路由** — 在 CC Switch 中将 API 格式改为 OpenAI Chat Completions 并开启路由，无需下载任何文件
+- **方案 B：本地代理脚本** — 下载 relay-proxy.js，适合不用 CC Switch 的用户
 
 ## 更新流程
 
